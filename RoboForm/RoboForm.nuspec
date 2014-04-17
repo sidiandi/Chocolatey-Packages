@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>RoboForm</id>
+    <title>RoboForm</title>
+    <version>7.9.6.7</version>
+    <authors>Siber Systems</authors>
+    <owners>Kenny Scelfo</owners>
+    <summary>RoboForm Password Manager</summary>
+    <description>RoboForm remembers your passwords so you don't have to! Just remember your one Master Password and RoboForm remembers the rest- it's that easy! Our bookmark-style Logins automatically log you in to your favorite websites with one click.</description>
+    <projectUrl>http://www.roboform.com</projectUrl>
+    <tags>RoboForm</tags>
+    <copyright></copyright>
+    <licenseUrl>http://www.roboform.com/support/license</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <!--<iconUrl>https://raw.github.com/kscelfo/Chocolatey-Packages/master/RoboForm/RoboForm.png</iconUrl>-->
+    <!--<dependencies>
+      <dependency id="" version="" />
+    </dependencies>-->
+    <releaseNotes></releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
