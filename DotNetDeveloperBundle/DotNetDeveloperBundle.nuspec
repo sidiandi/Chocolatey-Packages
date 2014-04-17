@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>DotNetDeveloperBundle</id>
+    <title>DotNetDeveloperBundle</title>
+    <version>1.8.2.405</version>
+    <authors>RedGate</authors>
+    <owners>Kenny Scelfo</owners>
+    <summary>DotNetDeveloperBundle</summary>
+    <description>The .NET Developer Bundle includes:
+ANTS Performance Profiler Pro - Get a complete picture of your application's performance and find bottlenecks, whether in the code or database.
+ANTS Memory Profiler - Find memory leaks within minutes and optimize the memory usage of your C# and VB.NET code.
+.NET Reflector VSPro - Understand and debug any 3rd party code, including frameworks, components and libraries.</description>
+    <projectUrl>http://www.red-gate.com</projectUrl>
+    <tags>DotNetDeveloperBundle RedGate .NET Developer Bundle</tags>
+    <copyright></copyright>
+    <licenseUrl>http://www.red-gate.com/purchase/license</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <!--<iconUrl>https://raw.github.com/kscelfo/Chocolatey-Packages/master/DotNetDeveloperBundle/DotNetDeveloperBundle.png</iconUrl>-->
+    <!--<dependencies>
+      <dependency id="" version="" />
+    </dependencies>-->
+    <releaseNotes></releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
