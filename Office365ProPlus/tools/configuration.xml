@@ -1,9 +1,10 @@
 <Configuration>
-	<Add SourcePath="%temp%\office" OfficeClientEdition="32" >
+	<Add OfficeClientEdition="32" >
 		<Product ID="O365ProPlusRetail">
 			<Language ID="en-us" />
 		</Product>
 	</Add>
+	<Updates Enabled="TRUE" />
 	<Display Level="None" AcceptEULA="TRUE" />
-	<Logging Name="OfficeSetup.txt" Path="%temp%" />
+	<Logging Path="%temp%" />
 </Configuration>
